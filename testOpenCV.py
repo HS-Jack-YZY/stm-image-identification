@@ -1,3 +1,4 @@
+
 import cv2
 import numpy as np
 import sys
@@ -9,7 +10,7 @@ small_image_address = 'samples/small_image'
 
 # 加载大图和小图
 img = cv2.imread(os.path.join(big_image_address, 'big_image.jpg'), 0)
-template = cv2.imread(os.path.join(small_image_address, 'small_image.jpg'), 0)
+template = cv2.imread(os.path.join(small_image_address, 'noisy_image.jpg'), 0)
 
 # 获取小图的宽度和高度
 w, h = template.shape[::-1]
