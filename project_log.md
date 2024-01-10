@@ -1,6 +1,6 @@
-## 2023.01.09
+2023.01.09
 
-编写了python文件`testOpenCV.py`，实现大图中找小图的操作。
+编写了python文件 `testOpenCV.py`，实现大图中找小图的操作。
 
 `testOpenCV.py`代码如下：
 
